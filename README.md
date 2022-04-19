@@ -1,6 +1,8 @@
-### Assignment
+# Sea Level Predictor
 
-You will anaylize a dataset of the global average sea level change since 1880. You will use the data to predict the sea level change through year 2050.
+The project will anaylize a dataset of the global average sea level change since 1880. We used the data to predict the sea level change through year 2050.
+<br />
+Project uses Python with Pandas, matplotlib, scipy and numpy to perform all these operations.
 
 Use the data to complete the following tasks:
 * Use Pandas to import the data from `epa-sea-level.csv`.
@@ -13,16 +15,8 @@ Unit tests are written for you under `test_module.py`.
 
 ### Development
 
-For development, you can use `main.py` to test your functions. Click the "run" button and `main.py` will run.
+For development we are using `sea_level_predictor.py` and `sea_level_predictor.ipynb` to write functions and `main.py` to test these functions.
 
 ### Testing 
 
-We imported the tests from `test_module.py` to `main.py` for your convenience. The tests will run automatically whenever you hit the "run" button.
-
-### Submitting
-
-Copy your project's URL and submit it to freeCodeCamp.
-
-### Data Source
-Global Average Absolute Sea Level Change, 1880-2014 from the US Environmental Protection Agency using data from CSIRO, 2015; NOAA, 2015.
-https://datahub.io/core/sea-level-rise
+We imported the tests from `test_module.py` to `main.py` for our convenience. The tests will run automatically whenever we run the code written in `main.py`.
